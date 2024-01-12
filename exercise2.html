@@ -9,54 +9,59 @@
     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Expedita porro dolore ipsum hic explicabo. Nam dolore similique tenetur perspiciatis!
             Atque iusto magnam dolorem accusamus totam eius quibusdam ad fugiat culpa." />
-            
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML5 & GitHub Pages - Exercise 2</title>
 </head>
 <body>
-    <header>
+    
    
-        <img src="images/cat_as_a_logo.jpg" alt="Tampereen työväen teatteri, mutta kissa." width="75" height="50"/>
-    <nav>
-        <ul>
-            <li>Medialle</li>
-            <li>Uutiskirje</li>
-            <li>Palaute</li>
-        </ul>
-    </nav>
-
-    <nav>
-        <ul>
-            <li>Kalenteri</li>
-            <li>Ohjelmisto</li>
-            <li>TTT-Klubi</li>
-            <li>Tarjoilut</li>
-            <li>Palvelut</li>
-            <li>Medialle</li>
-            <li>Teatteri</li>
-            <li>Lippumyymälät ja liput</li>
-        </ul>
-    </nav>
-    <nav>
-
-        <ul>
-            <li>Suuri näyttämö</li>
-            <li>Eino Salmelaisen näyttämö</li>
-            <li>Kellariteatteri</li>
-            <li>TTT-Klubi</li>
-            <li>Viidesnättämö/Residenssi</li>
-            <li>Näyttelijät</li>
-            <li>Henkilökunta</li>
-            <li>Missio ja historia</li>
-            <li>Rekrytointi</li>
-            <li>TTT-ystävät ry</li>
-            <li>Yhteiskuntavastuu</li>
+    <section class="wrapper">
+        <section class="box"><img src="images/cat_as_a_logo.jpg" 
+                alt="Tampereen työväen teatteri, mutta kissa." class="cover"></section>
+              Tampereen Työväen Teatteri, mutta kissa. </section>
+        <header>Tampereen Työväen Teatteri</header>
+        <nav>
+            <ul class="top-menu">
+                <li><a href="#">Medialle</a></li>
+                <li><a href="#">Uutiskirje</a></li>
+                <li><a href="#">Palaute</a></li>
+            </ul>
+        </nav>
+    
+        <nav>
+            <ul class="top-menu">
+                <li><a href="#">Kalenteri</a></li>
+                <li><a href="#">Ohjelmisto</a></li>
+                <li><a href="#">TTT-Klubi</a></li>
+                <li><a href="#">Tarjoilut</a></li>
+                <li><a href="#">Palvelut</a></li>
+                <li><a href="#">Medialle</a></li>
+                <li><a href="#">Teatteri</a></li>
+                <li><a href="#">Lippumyymälät ja liput</a></li>
+            </ul>
+        </nav>
+        <nav>
+    
+            <ul class="top-menu">
+                <li><a href="#">Suuri näyttämö</a></li>
+                <li><a href="#">Eino Salmelaisen näyttämö</a></li>
+                <li><a href="#">Kellariteatteri</a></li>
+                <li><a href="#">TTT-Klubi</a></li>
+                <li><a href="#">Viidesnättämö/Residenssi</a></li>
+                <li><a href="#">Näyttelijät</a></li>
+                <li><a href="#">Henkilökunta</a></li>
+                <li><a href="#">Missio ja historia</a></li>
+                <li><a href="#">Rekrytointi</a></li>
+                <li><a href="#">TTT-ystävät ry</a></li>
+                <li><a href="#">Yhteiskuntavastuu</a></li>
+                
             
-        
-        </ul>
+            </ul>
+    
+    
+        </nav>
+    
 
-
-    </nav>
-</header>
 
 <main>
     <!--  Exercise 3: Validation & Adding More Elements -->
@@ -81,13 +86,13 @@
         download ="devinv.png">
         Download File
     </a>
-   
+<article>
     <h2 >Otsikko 1</h2>
     <p>1.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
          Magnam, eligendi rerum. Exercitationem iste ratione praesentium delectus dolore aliquid veritatis corrupti, vero sunt accusantium.
          Quo consequatur pariatur ut temporibus iure voluptas.</p>
     <h2>Otsikko 2</h2>
-    <p>2.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    <p><strong>2.</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Magnam, eligendi rerum. Exercitationem iste ratione praesentium delectus dolore aliquid veritatis corrupti, vero sunt accusantium.
         Quo consequatur pariatur ut temporibus iure voluptas.</p>
     <h2>Otsikko 3</h2>
@@ -126,7 +131,7 @@
     <p>10.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Magnam, eligendi rerum. Exercitationem iste ratione praesentium delectus dolore aliquid veritatis corrupti, vero sunt accusantium.
         Quo consequatur pariatur <a href="#Infoa">ut</a> temporibus iure voluptas.</p>
-
+</article>
 
     
     <address>
@@ -146,6 +151,6 @@
 2024 Sonja
 
 </footer>
-    
+<!-- when you use id use # , when it is class use . in css-->
 </body>
 </html>

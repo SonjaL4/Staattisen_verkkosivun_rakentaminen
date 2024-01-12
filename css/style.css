@@ -1,0 +1,158 @@
+body{
+    background-color: beige;
+    font-size: 15px;
+    margin: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-decoration: underline;
+    
+    padding: 1em;
+}
+#main-header{
+    background-color: rgb(243, 168, 245);
+    text-align:center;
+    padding:20px;
+}
+#main-h1{
+    margin: 0;
+    font-size: 32px;
+}
+#main-p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#main-nav{
+   background-color: aquamarine;
+   text-align: center;
+}
+#main-nav ul{
+    list-style-type: none;
+    padding: 16px;
+    margin:0;
+}
+#main-nav li{
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+#main-nav a{
+    color:black;
+}
+nav{
+    background-color: antiquewhite;
+    padding:5px;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1em;
+    margin:0;
+
+
+}
+
+.content-article{
+    background-color:bisque;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#sidebar ul{
+    list-style-type: upper-roman;
+    margin-right: 90%;
+    background-color: rgb(239, 165, 245);
+}
+#sidebar li{
+    display: list-item;
+    margin-right: 20px; 
+}
+
+.top-menu li{
+    display:inline-block;
+    margin-right: 20px; 
+
+}
+.top-menu a{
+    text-decoration: none;
+    color:orange ;
+    font-weight:bold;
+}
+.top-menu a:visited{
+    color:red;
+}
+
+.top-menu a:hover{
+    color:red;
+}
+.main-h2{
+     color:  #333;
+     font-size: 24px;
+     margin-bottom: 10px;
+}
+.main-p{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h2{
+    background-color: lightsalmon;
+    color: black;
+    text-align: center;
+}
+
+p{
+    background-color: beige;
+}
+.box{
+    width: 115px;
+    height: 115px;
+
+}
+.box2{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img{
+   
+    height: 100%;
+    width: 100%;
+}
+.cover {
+    object-fit: cover;
+}
+  
+.contain {
+    object-fit: contain;
+}
+
+section{
+    color:silver;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.h1spe{
+    background-color: lightsalmon;
+    color: rgb(1, 1, 1);
+    text-align: center;
+}
+address{
+    background-color: beige;
+    color: gray;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}

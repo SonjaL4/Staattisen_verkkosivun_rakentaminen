@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.scontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.item{
+    flex: 100px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: bisque;
+    margin: 10px;
+    color: azure;
+}
+
+.itemBig{
+    flex: 250px;
+    padding: 20px;
+    border: 1px solid #333;
+   
+    margin:10px;
+    
+    
+}
+
+.item1{
+    flex:1;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: aqua;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    display: inline;
+    font-size: 25px;
+}
+header, footer, nav{
+    background-color: lightsalmon;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+
+
+}

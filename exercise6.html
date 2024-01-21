@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 6</title>
+    <title>Exercise 6: Styling Webpage Elements with Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <style>
@@ -26,12 +26,80 @@
             margin: 5px;
 
        }
+       nav li:hover{
+            background-color: aliceblue;
+
+       }
+       body{
+            margin:25px;
+            max-width: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        }
+        header, footer{
+            background-color: rgba(238, 131, 131, 0.717);
+            text-align: center;
+            padding: 1px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+   
+        }
+    article{
+        background-color: beige;
+        border: 1px solid black;
+        padding: 30px;
+        margin: 5px;
+    }
+
+
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    aside{
+        background-color:rgba(238, 131, 131, 0.717);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        border: 1px solid black;
+        padding: 5px;
+        margin: 10px;
+    }
+    table{
+    max-width: 600px;
+    background-color: beige;
+    width: auto;
+    border: 40px solid;
+    margin: auto;
+   
+}
+
+
+form{
+    
+    background-color:rgba(238, 131, 131, 0.847);
+    border:1px solid black;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
     </style>
 
 
 </head>
 <body>
-    <h1>Exercise 6</h1>
+  <header>  <h1>Exercise 6</h1></header>
     <nav>
         <ul class="nav nav-tabs">
             <li  class="nav-item"><a class="nav-link" href="index.html" target="_blank">Home</a></li>
@@ -44,14 +112,120 @@
         </ul>
         </nav>
 
+        <main>
+            <aside>
+                <h4>Sidebar</h4>
+                <p class="sidebar">Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. 
+                    Dolore fugit nihil laborum eligendi tempore,
+                     exercitationem hic sunt, debitis atque 
+                     distinctio molestias dicta dolor iusto?
+                     Quos rem a vel voluptatem tempora!</p>
+            </aside>
+        
+    
+    
+            <section>
+            <article >
+                <h3>Article 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt et velit, maxime ab fugiat voluptatum unde corrupti,
+                quasi illum vitae repellat totam laboriosam doloribus quam libero
+                fugit nemo necessitatibus culpa. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Error tempora nemo hic aut? 
+                Minima deserunt quam atque cupiditate dicta, nisi iste harum ut iusto 
+                veniam quia voluptas corrupti, illo quidem. Lorem ipsum dolor sit, 
+                amet consectetur adipisicing elit. Aspernatur, voluptates recusandae 
+                adipisci veritatis atque tenetur, porro quaerat eius quo pariatur
+                necessitatibus eum
+                 itaque quis in at ut expedita, minima facere.</p></article>
+            <article>
+                <h3>Article 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt et velit, maxime ab fugiat voluptatum unde corrupti,
+                    quasi illum vitae repellat totam laboriosam doloribus quam libero
+                    fugit nemo necessitatibus culpa. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Error tempora nemo hic aut? 
+                    Minima deserunt quam atque cupiditate dicta, nisi iste harum ut iusto 
+                    veniam quia voluptas corrupti, illo quidem. Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit. Aspernatur, voluptates recusandae 
+                    adipisci veritatis atque tenetur, porro quaerat eius quo pariatur
+                    necessitatibus eum
+                     itaque quis in at ut expedita, minima facere.</p></article>
+            <article >
+                <h3>Article 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deserunt et velit, maxime ab fugiat voluptatum unde corrupti,
+                        quasi illum vitae repellat totam laboriosam doloribus quam libero
+                        fugit nemo necessitatibus culpa. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Error tempora nemo hic aut? 
+                        Minima deserunt quam atque cupiditate dicta, nisi iste harum ut iusto 
+                        veniam quia voluptas corrupti, illo quidem. Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. Aspernatur, voluptates recusandae 
+                        adipisci veritatis atque tenetur, porro quaerat eius quo pariatur
+                        necessitatibus eum
+                     itaque quis in at ut expedita, minima facere.</p></article>
+                </section>
+        
+            </main> 
+            <section>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>First name</th>
+                        <th>Surname</th>
+                        <th>email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Marja</td>
+                        <td>Marjanen</td>
+                        <th>marja.marjanen@email.com</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Raimo</td>
+                        <td>Virtanen</td>
+                        <th>raimo.virtanen@email.com</th>
+                    </tr>
+                </tbody>
+    
+            </table>
+    
+            <form method="post" action="#">
+           
+           
+                <label for="formControlInput" class="form-label">Email address:</label>
+                <input type="email" name="Email" class="form-control" id="formControlInput" placeholder="name@example.com"><br>
+                <label for="formControlInput" name="FullName" class="form-label">Full name:</label>
+                <input type="text" class="form-control" name="FullName" placeholder="Marjatta Marjanen"><br>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+                
+                
+            
+            
+            </form>
+        
+            </section>
+    
+    
+    
+    
+   
       
 
 
         
+       
+
+
+        <footer>
+            <p>Sonja @2024</p>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-
-        <footer>2024 Sonja</footer>
     </body>
 
 </html>

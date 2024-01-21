@@ -18,13 +18,13 @@
     </header>    
         <nav>
             <ul>
-                <li><a href="index.html" target="_blank">Home</a></li>
-                <li><a href="exercise1.html" target="_blank">First</a></li>
-                <li><a href="exercise2.html" target="_blank">Second</a></li>
-                <li><a  href="exercise3.html" target="_blank">Third</a></li>
-                <li><a  href="exercise4.html" target="_blank">Fourth</a></li>
-                <li><a  href="exercise5.html" target="_blank">Fifth</a></li>
-                <li><a  href="exercise6.html" target="_blank">Sixth</a></li>
+                <li><a href="index.html" target="_blank" class="nav-a">Home</a></li>
+                <li><a href="exercise1.html" target="_blank" class="nav-a">First</a></li>
+                <li><a href="exercise2.html" target="_blank" class="nav-a">Second</a></li>
+                <li><a  href="exercise3.html" target="_blank" class="nav-a">Third</a></li>
+                <li><a  href="exercise4.html" target="_blank" class="nav-a">Fourth</a></li>
+                <li><a  href="exercise5.html" target="_blank" class="nav-a">Fifth</a></li>
+                <li><a  href="exercise6.html" target="_blank" class="nav-a">Sixth</a></li>
             </ul>
         </nav>
         <main>
@@ -40,7 +40,7 @@
     
 
 
-        <section>
+        <div class="section">
         <article >
             <h3>Article 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -80,10 +80,10 @@
                     adipisci veritatis atque tenetur, porro quaerat eius quo pariatur
                     necessitatibus eum
                  itaque quis in at ut expedita, minima facere.</p></article>
-            </section>
+            </div>
     
         </main> 
-        <section>
+        <div class="section">
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -110,17 +110,23 @@
         </table>
 
         <form method="post" action="#">
-            Name: <input type="text" name="FullName"><br>
-            email:<input type="email" name="Email"><br>
            
-        
-            <button type="submit">Submit</button><br>
+           
+            <label for="formControlInput" class="form-label">Email address:</label>
+            <input type="email" name="Email" class="form-control" id="formControlInput" placeholder="name@example.com"><br>
+            <label for="formControlInput" name="FullName" class="form-label">Full name:</label>
+            <input type="text" class="form-control" name="FullName" placeholder="Marjatta Marjanen"><br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            
             
         
         
         </form>
     
-        </section>
+    </div>
+
+        
 
 
 
